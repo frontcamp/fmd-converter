@@ -28,7 +28,7 @@ Key project documents
 ---------------------
 
 - Introduction: `README.md`
-- Requirements: `docs/SPECIFICATIONS.md`
+- Requirements: `docs/SPECIFICATION.md`
 - Architecture: `docs/ARCHITECTURE.md`
 - Agent skills: `skills/*`
 
