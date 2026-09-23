@@ -1,6 +1,9 @@
 # project
 /data/sources/
 
+# common
+tree.txt
+
 # python
 __pycache__/
 *.log
