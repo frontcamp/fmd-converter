@@ -25,19 +25,24 @@
 
 /data
     /sources
-        /BOAG Borsen AG
-            /Borse Dusseldorf (DUSA, DUSB)
-            /Borse Dusseldorf Quotrix (DUSC, DUSD)
-            /Borse Hamburg (HAMA, HAMB)
-            /Borse Hamburg Electronic Trading 2 (HAMP, HAMQ)
-            /Borse Hannover (HANA, HANB)
-        /Deutsche Borse Group
-            /Borse Frankfurt (source - DFRA)
-            /Eurex (source - DEUR)
-            /Tradegate BSX (source - DGAT)
-            /Xetra (source - DETR)
-        /Equiduct (XEQT)
-        /LS Exchange (HAMN)
+        /BÖAG Börsen AG
+            /DUSA - Börse Düsseldorf (Regulierter Markt)
+            /DUSB - Börse Düsseldorf (Freiverkehr)
+            /DUSC - Börse Düsseldorf Quotrix (Regulierter Markt)
+            /DUSD - Börse Düsseldorf Quotrix (Freiverkehr)
+            /HAMA - Börse Hamburg (Regulierter Markt)
+            /HAMB - Börse Hamburg (Freiverkehr)
+            /HAMP - Börse Hamburg Electronic Trading 2 (Regulierter Markt)
+            /HAMQ - Börse Hamburg Electronic Trading 2 (Freiverkehr)
+            /HANA - Börse Hannover (Regulierter Markt)
+            /HANB - Börse Hannover (Freiverkehr)
+        /Deutsche Börse Group
+            /DETR - Xetra
+            /DEUR - Eurex
+            /DFRA - Börse Frankfurt
+            /DGAT - Tradegate BSX
+        /HAMN - Börse Hamburg LS-X (Freiverkehr)
+        /XEQT - Equiduct
 
 В каталоге `data/sources/` должен находиться пакетный файл `normalize.cmd`, который запускает питон-скрипты `normalize.py` в каталогах-источниках.
 
